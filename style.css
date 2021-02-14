@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-color: #8B997C;
+}
+#marqueeStyle {
+    background-color: #F0D79D;
+    color: black;
+    font-size: 20px;
+}
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#cartoon {
+    margin-left: 150px;
+}
+.campus_mainDiv {
+    padding: 5px;
+    float: left;
+    border: 1px solid #4d477d;
+    width: 33.33%;
+}
+.campus_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+.campus_mainDiv hr {
+    width: 100%;
+}
+.campus_mainDiv h5,.campus_mainDiv p {
+    margin-left: 20px;
+}
+.achievements_head i {
+    float: right;
+}
+.achievements_text span {
+    color: #f2e18d;
+}
+.achievements_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.new_li {
+    margin-top: 13px;
+}
+.new_li h4 {
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+.new_li img {
+    border-radius: 25px;
+}
+.new_li p {
+    margin-top: 10px;
+}
+.alumni hr {
+    margin-bottom: 10px;
+}
+.img_modal {
+    display: inline-block;
+}
+.p_modal {
+    margin-top: 10px;
+}
+.header-entrepreneur {
+    line-height: 2;
+}
+.alumni {
+    cursor: pointer;
+}
+.modal-content {
+    margin-top: 10px;
+}
+.modal-body {
+    text-align: center;
+}
+#footer {
+    height: 20px;
+    background-color: #F0D79D;
+}
